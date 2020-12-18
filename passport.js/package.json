@@ -1,0 +1,24 @@
+{
+  "name": "passport",
+  "version": "1.0.0",
+  "description": "\"This application for authentication from google,linkedin,github and facebook\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Tarique",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.21.13",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.6",
+    "passport": "^0.4.1",
+    "passport-facebook": "^3.0.0",
+    "passport-github2": "^0.1.12",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-linkedin-oauth2": "^2.0.0"
+  },
+  "keywords": []
+}
